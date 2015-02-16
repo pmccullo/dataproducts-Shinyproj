@@ -51,4 +51,7 @@ shinyServer(function(input, output) {
                               developed in the 1940s"
                               })
   
+  output$text3 <- renderText({paste("code at: ",
+                      "https://github.com/pmccullo/dataproducts-Shinyproj")})
+  
 })

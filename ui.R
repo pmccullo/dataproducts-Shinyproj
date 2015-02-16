@@ -32,7 +32,8 @@ shinyUI(
       # Create a spot for the barplot
       mainPanel(
         plotOutput("tempplot"), textOutput("text5"),
-        verbatimTextOutput("text1"),verbatimTextOutput("text2")
+        verbatimTextOutput("text1"),verbatimTextOutput("text2"), 
+        textOutput("text3")
       )
       
     ))
